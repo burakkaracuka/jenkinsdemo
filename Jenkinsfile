@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('version') {
       steps {
-        sh 'ruby --version'
+        sh 'ruby --version:latest'
       }
     }
     stage('hello') {
